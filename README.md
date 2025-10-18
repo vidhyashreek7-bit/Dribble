@@ -30,158 +30,119 @@ Publish the website in the LocalHost.
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dribbble Style Page</title>
+  <title>Dribbble Style Page - Dark</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: orange;
-    }
-    .subtext {
-      color: grey;
-    }
-    .btn-learn {
-      background-color: grey;
-      color: white;
-    }
-    .btn-signup {
-      background-color: pink;
-      color: white;
-    }
-    .image-label {
-      font-size: 3px;
-      text-align: center;
-      margin-top: 1px;
-    }
-    .navbar-brand {
-      color: pink !important;
-      font-weight: bold;
-      font-size: 10px;
-    }
-  </style>
 </head>
-<body>
-
-  <!-- Dark Theme Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body style="background-color: #121212; color: #e0e0e0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark">
     <div class="container-fluid">
-      <!-- Dribbble brand on left -->
-      <a class="navbar-brand" href="#">Dribbble</a>
-
-      <!-- Navbar items -->
+      <a class="navbar-brand fw-bold" href="#" style="color: #ff4081; font-size: 14px;">Dribbble</a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-3"></ul>
       </div>
     </div>
   </nav>
-
-  <!-- Top Bar for Sign In / Sign Up -->
-  <div class="d-flex justify-content-end p-3 bg-white">
-    <a href="#" class="me-3 text-decoration-none">Sign in</a>
-    <a href="#" class="btn btn-signup">Sign up</a>
+  <div class="d-flex justify-content-end p-3" style="background-color: #1e1e1e;">
+    <a href="#" class="me-3 text-decoration-none" style="color: #ccc;">Sign in</a>
+    <a href="#" class="btn text-white" style="background-color: #ff4081;">Sign up</a>
   </div>
-
-  <!-- Header Section -->
   <div class="text-center my-4">
-    <h6 class="fw-bold">What are you working on?</h6>
-    <p class="subtext">Dribbble is show and tell for designers.</p>
-    <button class="btn btn-learn me-2">Learn more</button>
-    <button class="btn btn-signup">Sign up</button>
+    <h6 class="fw-bold" style="font-size: 22px; color: #ffffff;">What are you working on?</h6>
+    <p style="color: #aaa; font-size: 14px;">Dribbble is show and tell for designers.</p>
+    <button class="btn me-2 text-white" style="background-color: #555;">Learn more</button>
+    <button class="btn text-white" style="background-color: #ff4081;">Sign up</button>
   </div>
-
-  <!-- Image Grid -->
   <div class="container">
-    <!-- Row 1 -->
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="i11.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 1</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 1</div>
       </div>
       <div class="col-2 text-center">
         <img src="i12.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 2</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 2</div>
       </div>
       <div class="col-2 text-center">
         <img src="i3.webp" class="img-fluid rounded">
-        <div class="image-label">Image 3</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 3</div>
       </div>
       <div class="col-2 text-center">
         <img src="i4.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 4</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 4</div>
       </div>
       <div class="col-2 text-center">
         <img src="i5.webp" class="img-fluid rounded">
-        <div class="image-label">Image 5</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 5</div>
       </div>
       <div class="col-2 text-center">
         <img src="i6.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 6</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 6</div>
       </div>
     </div>
-
-    <!-- Row 2 -->
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="i7.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 7</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 7</div>
       </div>
       <div class="col-2 text-center">
         <img src="i8.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 8</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 8</div>
       </div>
       <div class="col-2 text-center">
         <img src="i9.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 9</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 9</div>
       </div>
       <div class="col-2 text-center">
         <img src="i13.webp" class="img-fluid rounded">
-        <div class="image-label">Image 10</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 10</div>
       </div>
       <div class="col-2 text-center">
         <img src="i14.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 11</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 11</div>
       </div>
       <div class="col-2 text-center">
         <img src="shahrukh-khan.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 12</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 12</div>
       </div>
     </div>
-
-    <!-- Row 3 -->
     <div class="row mb-4">
       <div class="col-2 text-center">
         <img src="nature.webp" class="img-fluid rounded">
-        <div class="image-label">Image 13</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 13</div>
       </div>
       <div class="col-2 text-center">
         <img src="i16.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 14</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 14</div>
       </div>
       <div class="col-2 text-center">
         <img src="i15.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 15</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 15</div>
       </div>
       <div class="col-2 text-center">
         <img src="i16.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 16</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 16</div>
       </div>
       <div class="col-2 text-center">
         <img src="i17.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 17</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 17</div>
       </div>
       <div class="col-2 text-center">
         <img src="i18.jpg" class="img-fluid rounded">
-        <div class="image-label">Image 18</div>
+        <div class="mt-1" style="font-size: 12px; color: #ccc;">Image 18</div>
       </div>
     </div>
+
   </div>
 
 </body>
 </html>
+
 ```
 
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-12 095441.png>)
+<img width="1920" height="1200" alt="Screenshot 2025-10-17 213737" src="https://github.com/user-attachments/assets/bae50a5e-334d-418f-a6f1-91960e947c75" />
+
 
 
 ## RESULT:
